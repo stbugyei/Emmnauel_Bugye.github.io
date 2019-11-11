@@ -1,0 +1,35 @@
+
+#container{
+background-color: #FFA500;
+background-image: no repeat;
+border:solid thin;
+width:1245px;
+}
+#header{
+background-color:#fff;;
+margin-bottom:0px;
+width:200px;
+height:45px;
+margin:0 auto;
+text-align:center;
+
+}
+#manu{
+background-color:#FFD700;
+width:900px;
+height:500px;
+float:none;
+text-align:center;
+margin-bottom:0px;
+}
+#content{
+background-color:#EEEEEE;
+height:600px;
+width:1245px;
+float:left;
+}
+#footer{
+background-color:#FFA500;
+clear:both;
+text-align:right;
+}

@@ -1,0 +1,221 @@
+body{
+font-size:80%;
+font-family: Times New Roman, Times New Roman; 
+letter-spacing: 0.15em;
+background-image:  
+ }  
+ #page{
+max-width:900px;
+min-width:600px;
+margin:10px auto 10px auto;
+padding:20px;
+border:
+background-color:#ffffff;
+background-image:
+background-repeat:no-repeat;
+background-position:right top;
+}
+  #logo{
+width:108px;
+height:50px;
+margin: 10px auto 25px auto;
+text-align:center-left;
+}
+  ul{
+width:500px;
+padding: 15px;
+margin: 0px auto 0px auto;
+border-top: 2px solid #000;
+border-bottom: 1px solid #000;
+text-align:center;
+}
+
+li{
+display:inline;
+margin:0px 3px;
+}
+a{
+color:#000000;
+text-transform:uppercase;
+text-decoration:none;
+padding:6px 18px 5px 18px;
+}
+
+a:hover{
+/*mouse is over a link*/
+color:#ffffff;
+background-color:#97a397;
+}
+a.on{
+/*class="on" in that link, which page is currently displayed*/
+color:#cc3333;
+background-color:#ffffff;
+text-decoration:underline;
+}
+p{
+width:600px;
+text-align: justify;
+margin:20px;
+}  
+  #wrapper {                          
+    width: 960px;                     
+    }                                 
+                                      
+  #grid {                             
+  	float: left;                      
+  	width: 960px;                     
+  	margin: 0;                        
+  	padding: 0;                       
+  	background: red;                
+  	}                                 
+                                      
+  .block {                            
+    position: absolute;               
+    border: 1px solid black;          
+    }                                 
+                                      
+  .inner {                            
+    height: 100%;                     
+    width: 100%;                      
+    }                                 
+                                      
+  .s1x1 {                             
+    height: 240px;                    
+    width: 240px;                     
+    }                                 
+                                      
+  .s2x1 {                             
+    height: 240px;                    
+    width: 480px;                     
+    }                                 
+                                      
+  .s3x1 {                             
+    height: 240px;                    
+    width: 720px;                     
+    }                                 
+                                      
+  .s4x1 {                             
+    height: 240px;                    
+    width: 1245px; 
+	background-color:wheat;		
+    }                                 
+                                      
+  .s1x2 {                             
+    height: 480px;                    
+    width: 240px;                     
+    }                                 
+                                      
+  .s2x2 {                             
+    height: 480px;                    
+    width: 480px;                     
+    }                                 
+                                      
+  .s3x2 {                             
+    height: 480px;                    
+    width: 720px;                     
+    }                                 
+                                      
+  .s4x2 {                             
+    height: 500px;                    
+    width: 1245px;
+	background-color:(img src="./images/logo.jpg")	
+    }                                 
+                                      
+  .s1x3 {                             
+    height: 720px;                    
+    width: 240px;                     
+    }                                 
+                                      
+  .s2x3 {                             
+    height: 720px;                    
+    width: 480px;                     
+    }                                 
+                                      
+  .s3x3 {                             
+    height: 720px;                    
+    width: 720px;                     
+    }                                 
+                                      
+  .s4x3 {                             
+    height: 720px;                    
+    width: 960px;                     
+    }                                 
+                                      
+                                      
+  /* Blocks Position */               
+                                      
+  .p0x0 {                             
+    top: 0px;                         
+    left: 0px;                        
+    }                                 
+                                      
+  .p1x1 {                             
+    top: 0px;                         
+    left: 240px;                      
+    }                                 
+                                      
+  .p2x0 {                             
+    top: 0px;                         
+    left: 480px;                      
+    }                                 
+                                      
+  .p3x0 {                             
+    top: 0px;                         
+    left: 720px;                      
+    }                                 
+                                      
+  .p0x1 {                             
+    top: 240px;                       
+    left: 0px;                        
+    }                                 
+                                      
+  .p1x0 {                             
+    top: 0;                           
+    left: 240px;                      
+    }                                 
+                                      
+  .p1x1 {                             
+    top: 240px;                       
+    left: 240px;                      
+    }                                 
+                                      
+  .p2x1 {                             
+    top: 240px;                       
+    left: 480px;                      
+    }                                 
+                                      
+  .p3x1 {                             
+    top: 240px;                       
+    left: 720px;                      
+    }                                 
+                                      
+                                      
+  .p0x2 {                             
+    top: 480px;                       
+    left: 0px;                        
+    }                                 
+                                      
+  .p1x2 {                             
+    top: 480px;                       
+    left: 240px;                      
+     }                                
+                                      
+  .p2x2 {                             
+    top: 480px;                       
+    left: 480px;                      
+     }                                
+                                      
+  .p3x2 {                             
+    top: 480px;                       
+    left: 720px;                      
+    }                                 
+                                      
+                                      
+  .creditline {                       
+    position: absolute;               
+    top: 750px;                       
+    left: 10px;                       
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;                  
+    color: gray;                      
+  }     

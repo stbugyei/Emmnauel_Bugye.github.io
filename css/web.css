@@ -1,0 +1,164 @@
+/*
+
+./css/style.css
+
+These are the CSS -definitions for the website
+
+*/
+
+/* body{
+font-size:100%;
+background-color:;
+font-size:15px;
+font-family:
+letter-spacing: 0.15em;
+
+background-image:url('image/6.jpg');
+}
+page{
+max-width:900px;
+min-width:600px;
+margin:10px auto 10px auto;
+padding:20px;
+border:4px double #000;
+background-color:#ffffff;
+background-image:url('image/1.jpg');
+background-repeat:no-repeat;
+background-position:right top;
+}
+
+logo{
+width:500px;
+height:50px;
+margin: 10px auto 25px auto;
+text-align:center;
+/*border:1px solid #000;*/
+}
+
+/*ul{
+width:500px;
+padding: 15px;
+margin: 0px auto 0px auto;
+border-top: 2px solid #000;
+border-bottom: 1px solid #000;
+text-align:center;
+}
+li{
+display:inline;
+margin:0px 3px;
+}
+*/
+a{
+color:#000000;
+text-transform:uppercase;
+text-decoration:none;
+padding:6px 18px 5px 18px;
+}
+a:hover{
+/*mouse is over a link*/
+color:#ffffff;
+background-color:#97a397;
+}
+a.on{
+class="on" in that link, which page is currently displayed
+color:#cc3333;
+background-color:#ffffff;
+text-decoration:underline;
+}
+p{
+width:700px;
+text-align: justify;
+margin:20px;
+}
+ h4{
+margin:20px;
+}
+
+/*The classes used in about.html
+Testing the shadow effect on text*/
+p.about1{
+background-color:#eeeeee;
+color:#666666;
+text-shadow:1px 1px 0px #000000;
+padding:3px;
+}
+p.about2{
+background-color:#ffffff;
+color:#666666;
+text-shadow:1px 1px 3px #666666;
+padding:3px;
+}
+p.about3{
+background-color:#ffffff;
+color:#000000;
+text-shadow:2px 2px 7px #111111;
+padding:3px;
+}
+p.about4{
+background-color:#ffffff;
+color:#000000;
+text-shadow:-1px -2px 0px #111111;
+padding:3px;
+}
+p.about5{
+background-color:#ffffff;
+color:#000000;
+text-shadow:-1px -2px 3px #111111;
+padding:3px;
+}
+
+/*Styles for the form-page*/
+#form{
+width:500px;
+height:500px;
+margin:20px;
+background-color:#fff;
+box-shadow: inset 2px 2px 10px #777777;
+}
+fieldset{
+width:500px;
+margin-top:20px;
+border:none;
+line-height:1.6em;
+}
+legend{
+font-style:italic;
+color:#666666;
+text-shadow:2px 2px 7px #111111;
+}
+input[type="text"],input[type="email"]{
+width:120px;
+border:1px solid #d6d6d6;
+padding:2px;
+outline:none;
+}
+input[type="text"]:focus,input[type="text"]:hover,
+input[type="email"]:focus,input[type="email"]:hover{
+background-color:#d0e2f0;
+border:1px solid #999999;
+}
+.title{
+float:left;
+width:150px;
+clear:left;
+}
+.submit{
+width:228px;
+text-align:right;
+}
+
+
+input[type="submit"]{
+border:1px solid #006633;
+background-color: #7aa3aa;
+color:#ffffff;
+border-radius:5px;
+/*width:100px;*/
+margin-bottom:10px;
+}
+input[type="submit"]:hover{
+border:1px solid #006633;
+background-color: #99d2c4;
+color:#ffffff;
+cursor:pointer;
+}
